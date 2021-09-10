@@ -9,7 +9,6 @@ import { CensusListComponent } from './components/census-list/census-list.compon
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CensusDetailComponent } from './components/census-detail/census-detail.component';
-import { AddCensusComponent } from './components/add-census/add-census.component';
 import { RemoveCensusComponent } from './components/remove-census/remove-census.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { RemoveCensusComponent } from './components/remove-census/remove-census.
     AppComponent,
     CensusListComponent,
     CensusDetailComponent,
-    AddCensusComponent,
     RemoveCensusComponent
   ],
   imports: [
