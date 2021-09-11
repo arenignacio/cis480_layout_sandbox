@@ -1,1 +1,51 @@
-<p>header works!</p>
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 0px 15px;
+    height: 50px;
+    width: 100%;
+    background: rgba(162, 234, 180);
+    z-index: 1;
+  }
+
+  #logo {
+    width: 15%;
+  }
+
+  #nav {
+    display: flex;
+    align-items: center;
+  }
+
+  #search {
+    margin: 0px 20px;
+    width: 250px;
+    background: coral;
+  }
+
+  ul {
+    padding-left: 0px;
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+</style>
+
+<div class="container">
+  <div id="logo">LOGO HERE</div>
+  <div id="nav">
+    <ul>
+      <li>Menu1</li>
+      <li>Menu2</li>
+      <li>Menu3</li>
+    </ul>
+    <div id="search">search</div>
+  </div>
+  <div id="user"></div>
+</div>

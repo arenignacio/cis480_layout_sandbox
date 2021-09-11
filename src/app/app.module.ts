@@ -10,13 +10,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CensusDetailComponent } from './components/census-detail/census-detail.component';
 import { RemoveCensusComponent } from './components/remove-census/remove-census.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CensusListComponent,
     CensusDetailComponent,
-    RemoveCensusComponent
+    RemoveCensusComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

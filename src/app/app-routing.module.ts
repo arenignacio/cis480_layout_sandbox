@@ -6,10 +6,7 @@ import { CensusDetailComponent } from './components/census-detail/census-detail.
 import { RemoveCensusComponent } from './components/remove-census/remove-census.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'census-list' },
-  { path: 'census-list', component: CensusListComponent },
-  { path: 'edit-census/:id', component: CensusDetailComponent},
-  { path: 'remove-census/:id', component: RemoveCensusComponent}
+  { path: '', pathMatch: 'full', redirectTo: 'home' }
 ];
 
 @NgModule({
